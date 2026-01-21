@@ -1,0 +1,9 @@
+$ echo "Line1" > output.txt
+$ echo "Line2" >> output.txt
+$ cat output.txt
+"Line2"
+$ grep Line output.txt
+"Line2"
+$ wc output.txt
+1 1 8 output.txt
+$ 
